@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/cdi/cdi-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/cdi/cdi-api-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/cdi/cdi-api-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-api-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-api-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-core-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-core-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se-core-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se-core-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet-core-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet-core-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-servlet-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-se-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-spi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-spi-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mv146/Downloads/overclocking/weld-1.1.6.Final/weld-1.1.6.Final/artifacts/weld/weld-spi-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
