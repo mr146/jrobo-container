@@ -1,0 +1,5 @@
+package one.implementation;
+
+public interface IInterface {
+	public void action();
+}

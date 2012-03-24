@@ -1,0 +1,9 @@
+package collection;
+
+public class ContentOfCollection {
+	public int value;
+	public ContentOfCollection()
+	{
+		value = 146;
+	}
+}

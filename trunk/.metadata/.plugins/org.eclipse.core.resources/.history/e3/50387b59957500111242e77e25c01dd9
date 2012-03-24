@@ -1,0 +1,18 @@
+package collection;
+
+import java.util.ArrayList;
+
+import javax.inject.Inject;
+
+public class CollectionsInjection {
+	public ArrayList<ContentOfCollection> collection;
+	public CollectionsInjection(ArrayList<ContentOfCollection> collection)
+	{
+		this.collection = collection;
+	}
+	public void action()
+	{
+		for(ContentOfCollection x : collection)
+			x.action();
+	}
+}

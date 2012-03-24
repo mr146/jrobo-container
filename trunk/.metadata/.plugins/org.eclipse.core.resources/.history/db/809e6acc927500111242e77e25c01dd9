@@ -1,0 +1,10 @@
+package two.implementations;
+
+public class Bar implements IBar{
+
+	@Override
+	public void action() {
+		System.out.println("Implementation1");
+		
+	}
+}

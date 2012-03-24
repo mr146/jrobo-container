@@ -1,0 +1,13 @@
+package collection;
+
+public class ContentOfCollection {
+	public int value;
+	@Inject public ContentOfCollection()
+	{
+		value = 146;
+	}
+	void action()
+	{
+		System.out.println(value);
+	}
+}

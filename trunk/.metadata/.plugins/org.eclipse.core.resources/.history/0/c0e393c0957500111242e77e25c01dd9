@@ -1,0 +1,7 @@
+package two.implementations;
+
+import javax.enterprise.inject.Instance;
+
+public class ContainerWrap {
+	@Inject @Any Instance<?> instance;
+}

@@ -1,0 +1,15 @@
+package collection;
+
+import javax.inject.Inject;
+
+public class ContentOfCollection implements ICollectionContent {
+	public int value;
+	public ContentOfCollection()
+	{
+		value = 146;
+	}
+	void action()
+	{
+		System.out.println(value);
+	}
+}

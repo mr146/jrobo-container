@@ -14,7 +14,32 @@ public class Main {
 	private WeldContainer container;
 	private ContainerWrap myContainer;
 
+	private <T1, T2, T> T apply(Class<T> resultClass, T1 t1, T2 t2){
+		return null;
+	}
+	
+	private <T1, T> T apply(Class<T> resultClass, T1 t1){
+		return null;
+	}
+	
+	private <T1 extends Integer> String f(T1 t1)
+	{
+		return "b";
+	}
+	
+	private <T1> String f(T1 t1)
+	{
+		return "a";
+	}
+
 	public Main() {
+		String s = f(new Long(10));
+		System.out.println(s);
+		Integer x = apply(Integer.class, new Long(10));
+		Integer z = apply(Integer.class, new Long(10), "asasas");
+		String xxx = "asdf";
+		Object obj = xxx;
+		System.out.println(obj.getClass());
 		container = new Weld().initialize();
 		myContainer = container.instance().select(ContainerWrap.class).get();
 	}

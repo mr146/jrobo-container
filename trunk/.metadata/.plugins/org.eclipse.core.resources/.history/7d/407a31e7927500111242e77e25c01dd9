@@ -1,0 +1,18 @@
+package mainpackage;
+
+import one.implementation.Foo;
+import one.implementation.IFoo;
+
+import org.jboss.weld.environment.se.Weld;
+import org.jboss.weld.environment.se.WeldContainer;
+
+public class Main {
+	private WeldContainer container = new Weld().initialize();
+	public static void main(String[] args) {
+		(new Main()).run();
+	}
+	private void run() {
+		Foo x = (Foo) container.instance().select(IFoo.class).get();
+		x.action();
+	}
+}

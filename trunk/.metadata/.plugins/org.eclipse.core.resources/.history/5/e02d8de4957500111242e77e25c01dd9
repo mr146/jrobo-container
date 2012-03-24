@@ -1,0 +1,41 @@
+package mainpackage;
+
+import javax.enterprise.inject.Instance;
+
+import one.implementation.Foo;
+import one.implementation.IFoo;
+
+import org.jboss.weld.environment.se.Weld;
+import org.jboss.weld.environment.se.WeldContainer;
+
+import two.implementations.ContainerWrap;
+
+import collection.CollectionsInjection;
+
+public class Main {
+	private WeldContainer container = new Weld().initialize();
+	private ContainerWrap myContainer;
+
+	public static void main(String[] args) {
+		(new Main()).run();
+	}
+
+	private void run() {
+		Instance<?> intstance = container.instance();
+		for(Object obj : intstance)
+			if(obj != null)
+				System.out.println("contains: " + obj.getClass().toString());
+		oneImplementation();
+		collections();
+	}
+
+	private void collections() {
+		CollectionsInjection xxx = container.instance().select(CollectionsInjection.class).get();
+		xxx.action();
+	}
+
+	private void oneImplementation() {
+		Foo x = (Foo) container.instance().select(IFoo.class).get();
+		x.action();
+	}
+}

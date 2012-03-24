@@ -1,0 +1,10 @@
+package two.implementations;
+
+public class Implementation2 implements IInterface{
+
+	@Override
+	public void action() {
+		System.out.println("Implementation2");
+		
+	}
+}

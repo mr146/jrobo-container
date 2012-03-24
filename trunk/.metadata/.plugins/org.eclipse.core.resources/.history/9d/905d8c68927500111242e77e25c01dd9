@@ -1,0 +1,10 @@
+package one.implementation;
+
+public class Implementation implements IInterface{
+
+	public void action() {
+		System.out.println("asdf");
+		
+	}
+	
+}
