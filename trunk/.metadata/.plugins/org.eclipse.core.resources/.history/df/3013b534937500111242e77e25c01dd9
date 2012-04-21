@@ -1,8 +1,0 @@
-package collection;
-
-import java.util.ArrayList;
-
-public class CollectionsInjection {
-	public ArrayList<Content>
-
-}
